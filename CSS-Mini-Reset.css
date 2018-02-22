@@ -1,23 +1,50 @@
 /* CSS Mini Reset */
 
-html, body, div, form, fieldset, legend, label
+html,
+body,
+div,
+form,
+fieldset,
+legend,
+caption,
+label,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre
 {
-	margin: 0;
-	padding: 0;	
+    font-size: 100%;
+    font-weight: normal;
+
+    margin: 0;
+    padding: 0;
+
+    vertical-align: baseline;
+
+    border: 0;
+    outline: 0;
+    background: transparent;
 }
 
 table
 {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-spacing: 0;
+    border-collapse: collapse;
 }
 
-th, td
+th,
+td
 {
-	text-align: left;
-	vertical-align: top;
+    text-align: left;
+    vertical-align: top;
 }
 
-h1, h2, h3, h4, h5, h6, th, td, caption { font-weight:normal; }
-
-img { border: 0; }
+img
+{
+    border: 0;
+}
